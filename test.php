@@ -1,10 +1,5 @@
-<html>
-<head>
-	<title>Confirmation</title>
-</head>
-<body>
-
-	<h1><?php 
+<h2>
+	<?php 
 
 		# code...
 		$fromdestination=$_POST['fromdestination'];
@@ -20,14 +15,10 @@
 
 	$to="shawonis08@gmail.com";
 	$subject="clickforFly";
-	$body="From: $fromdestination, To: $todestination, First Name: $fname, Last Name: $lname, Email: $email, Contact No.: $contactno, PassPort No. :$passportno, Address: $address;";
+	$body="From: $fromdestination,\n To: $todestination,\n First Name: $fname,\n Last Name: $lname,\n Email: $email,\n Contact No.: $contactno,\n PassPort No. :$passportno,\n Address: $address;\n";
 
 	mail($to, $subject, $body);
 
 	 echo "Our Administrative team will contact you Soon";
- 
- ?></h1>
-
-</body>
-</html>
-
+	?>
+</h2>
