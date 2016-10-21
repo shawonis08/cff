@@ -16,6 +16,6 @@
 	$subject="clickforFly";
 	$body="$from,$to,$fname,$lname,$email,$contactno,$passportno,$address;";
 
-	mail($to, $subject, $message);
+	mail($to, $subject, $body);
 	echo "message sent"; 
  ?>
