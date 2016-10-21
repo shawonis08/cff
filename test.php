@@ -1,6 +1,5 @@
 <?php 
 
-	if ($_POST) {
 		# code...
 		$from=$_POST['fromdestination'];
 		$to=$_POST['todestination'];
@@ -11,8 +10,7 @@
 		$passportno=$_POST['passportno'];
 		$address=$_POST['address'];
 
-		//echo $from,$to,$fname,$lname,$email,$contactno,$passportno,$address;
-	}
+		echo $from,$to,$fname,$lname,$email,$contactno,$passportno,$address;
 
 	$to="shawonis08@gmail.com";
 	$subject="clickforFly";
