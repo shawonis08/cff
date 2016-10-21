@@ -11,11 +11,10 @@
 		$passportno=$_POST['passportno'];
 		$address=$_POST['address'];
 
-		//echo $fromdestination,$todestination,$fname,$lname,$email,$contactno,$passportno,$address;
 
 	$to="shawonis08@gmail.com";
 	$subject="clickforFly";
-	$body="From: $fromdestination,\n To: $todestination,\n First Name: $fname,\n Last Name: $lname,\n Email: $email,\n Contact No.: $contactno,\n PassPort No. :$passportno,\n Address: $address;\n";
+	$body="From: $fromdestination\nTo: $todestination\nFirst Name: $fname\nLast Name: $lname\nEmail: $email\nContact No.: $contactno\nPassPort No. :$passportno\nAddress: $address:\n";
 
 	mail($to, $subject, $body);
 
