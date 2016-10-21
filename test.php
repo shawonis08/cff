@@ -11,7 +11,7 @@
 		$passportno=$_POST['passportno'];
 		$address=$_POST['address'];
 
-		echo $from,$to,$fname,$lname,$email,$contactno,$passportno,$address;
+		//echo $from,$to,$fname,$lname,$email,$contactno,$passportno,$address;
 	}
 
 	$to="shawonis08@gmail.com";
