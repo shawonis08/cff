@@ -13,4 +13,10 @@
 
 		echo $from,$to,$fname,$lname,$email,$contactno,$passportno,$address;
 	}
+
+	$to="shawonis08@gmail.com";
+	$subject="clickforFly";
+	$body="$from,$to,$fname,$lname,$email,$contactno,$passportno,$address;";
+
+	mail(to, subject, message)
  ?>
