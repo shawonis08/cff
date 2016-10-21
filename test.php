@@ -1,4 +1,10 @@
-<h1><?php 
+<html>
+<head>
+	<title>Confirmation</title>
+</head>
+<body>
+
+	<h1><?php 
 
 		# code...
 		$fromdestination=$_POST['fromdestination'];
@@ -21,3 +27,7 @@
 	 echo "Our Administrative team will contact you Soon";
  
  ?></h1>
+
+</body>
+</html>
+
