@@ -20,6 +20,7 @@
 	<input type="radio" name="select" value="roundtrip">Round Trip
 	<input type="radio" name="select" value="oneway">One Way
 	<input type="radio" name="select" value="multicity">Multi City<br>
+	
 	<!-- From destination -->
 	<label class="from">From</label>
 	<input type="text" name="fromdestination" id="input1" placeholder="Enter City or airport" class="form-control"/>
