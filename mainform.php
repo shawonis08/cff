@@ -22,7 +22,7 @@
 </head>
 <body>
 <form action="test.php" method="post">
-	<!-- Hidden Form Start-->
+	<!-- Hidden Form Start for data passing-->
 	<!-- From destination -->
 	<input type="hidden" name="fromdestination" value=<?php echo $from=$_POST['fromdestination']; ?> >
 	<!-- To destination -->
@@ -30,6 +30,8 @@
 	<!-- Hidden Form Finish-->
 
 	<!-- Main form Start -->
+	<label class="fname">Name As Passport</label>
+	<input type="text" name="passportname" id="input0" placeholder="Enter name as passport" class="form-control"/><br>
 	<label class="fname">First Name</label>
 	<input type="text" name="fname" id="input1" placeholder="Enter First name" class="form-control"/><br>
 	<label class="lname">Last Name</label>
