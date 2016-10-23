@@ -15,7 +15,7 @@
 <!-- Form for from and to destination in post method redirect to mainform page -->
 <form action="mainform.php"  method="post">
 	<!-- Ticket Type -->
-	<label class=tickettype>Ticket Type</label>
+	<label class=tickettype>Ticket Type: </label>
 	<!-- radio button -->
 	<input type="radio" name="select" value="roundtrip">Round Trip
 	<input type="radio" name="select" value="oneway">One Way
@@ -24,7 +24,6 @@
 	<!-- From destination -->
 	<label class="from">From</label>
 	<input type="text" name="fromdestination" id="input1" placeholder="Enter City or airport" class="form-control"/>
-
 
 	<!-- To destination -->
 	<label class="to">To</label>
@@ -44,9 +43,6 @@
 	                    <option value="3" >3</option>
 	                    <option value="4" >4</option>
 	                    <option value="5" >5</option>
-	                    <option value="6" >6</option>
-	                    <option value="7" >7</option>
-	                    <option value="8" >8</option>
 	</select>
 	<!-- Child Info -->
 	<label class="child">Child:</label>
