@@ -31,10 +31,10 @@
 	
 	<!-- leaving info -->
 	<label class="leaving">Leaving On</label>
-	<input type="text" name="to" id="input2" placeholder="Enter City or airport" class="form-control"/>
+	<input type="text" name="to" id="input3" placeholder="Enter City or airport" class="form-control"/>
 	<!-- Return Info -->
 	<label class="return">Return On</label>
-	<input type="text" name="to" id="input2" placeholder="Enter City or airport" class="form-control"/>
+	<input type="text" name="to" id="input4" placeholder="Enter City or airport" class="form-control"/>
 	<!-- Members Info -->
 	<label class="adults">Adult:</label>
 	<select class="numberOfAdults">
