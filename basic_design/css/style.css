@@ -1,0 +1,254 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-brand{
+	padding: 0px;
+}
+
+.main{
+	background-color: #FFCF00;
+	height: 600px;
+}
+.main-content{
+	margin: 0 auto;
+	width: 800px;
+	background-attachment: fixed;
+}
+.ticket-type{
+	margin-top: 60px;
+	font-weight: 700;
+	font-size: 16px;
+}
+.ticket-type-input{
+	margin-right: 245px;
+}
+.from-to{
+	margin-top: 10px;
+}
+.from{
+	width: 400px;
+	float: left;
+}
+
+.from-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	color: #1C1C1C;
+}
+
+.from-input{
+	padding: 10px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+	background-attachment: fixed;
+}
+
+.to{
+	width: 400px;
+	float: right;
+	padding-left: 50px;
+}
+
+.to-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	color: #1C1C1C;
+}
+
+.to-input{
+	padding: 10px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+	background-attachment: fixed;
+}
+
+.leave-return{
+	margin-top: 10px;
+}
+
+.leave{
+	width: 400px;
+	float: left;
+	margin-top: 20px;
+}
+
+.leave-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	color: #1C1C1C;
+}
+
+.leave-input{
+	padding: 10px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+}
+
+.return{
+	width: 400px;
+	float: right;
+	padding-left: 50px;
+	margin-top: 20px;
+}
+
+.return-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	color: #1C1C1C;
+}
+
+.return-input{
+	padding: 10px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+}
+.options{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.adult-option{	
+	float: left;
+	width: 180px;
+}
+
+.adult-text{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7.6px 10px;
+	background-color: #fff;
+	margin-right: -2px;
+	color: #1C1C1C;
+}
+
+.numberOfAdult{
+	font-size: 14px;
+	font-weight: 600;
+	width: 80px;
+	border: 0px solid;
+	background-color: #fff;
+	color: #1C1C1C;
+	padding: 10px;
+}
+
+.child-option{
+	float: left;
+	width: 180px;
+}
+
+.child-text{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7.6px 10px;
+	background-color: #fff;
+	margin-right: -2px;
+	color: #1C1C1C;
+}
+
+.numberOfChildren{
+	font-size: 14px;
+	font-weight: 600;
+	width: 80px;
+	border: 0px solid;
+	background-color: #fff;
+	color: #1C1C1C;
+	padding: 10px;
+}
+
+.infant-option{
+	float: left;
+	width: 180px;
+}
+
+.infant-text{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7.6px 10px;
+	background-color: #fff;
+	margin-right: -2px;
+	color: #1C1C1C;
+}
+
+.numberOfInfant{
+	font-size: 14px;
+	font-weight: 600;
+	width: 80px;
+	border: 0px solid;
+	background-color: #fff;
+	color: #1C1C1C;
+	padding: 10px;
+}
+
+.class-option{
+	float: left;
+	width: 260px;
+}
+
+.class-text{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7.6px 10px;
+	background-color: #fff;
+	margin-right: -2px;
+	color: #1C1C1C;
+}
+
+.numberOfClass{
+	font-size: 14px;
+	font-weight: 600;
+	width: 185px;
+	border: 0px solid;
+	background-color: #fff;
+	color: #1C1C1C;
+	padding: 10px;
+}
+
+footer{
+	height: 80px;
+	background-color: #1C1C1C;
+	margin-top: 40px;
+}
+.container{
+	padding-top: 30px;
+}
+
+.btn{
+	width: 150px;
+	background-color: #1C1C1C;
+	color: #fff;
+	height: 40px;
+}
+.button{
+	margin-top: 30px;
+	padding-left: 330px;
+}
