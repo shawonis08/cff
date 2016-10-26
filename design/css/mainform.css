@@ -1,0 +1,224 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.main{
+	background-image: url(../img/flight1.jpg);
+	height: 650px;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.main-container{
+	margin: 0 auto;
+	width: 800px;
+	background-attachment: fixed;
+}
+
+.passport{
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.passport-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C1C1C;
+}
+
+.passport-input{
+	padding: 8px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	background-attachment: fixed;
+}
+
+.name{
+	display: inline-block;
+	margin-top: 30px;
+}
+.fname{
+	width: 400px;
+	float: left;
+}
+
+.fname-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C1C1C;
+
+}
+
+.fname-input{
+	padding: 8px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+	background-attachment: fixed;
+}
+
+.lname{
+	width: 400px;
+	float: right;
+	padding-left: 50px;
+}
+
+.lname-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C1C1C;
+}
+
+.lname-input{
+	padding: 8px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+	background-attachment: fixed;
+}
+
+.email-contact{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.email{
+	width: 400px;
+	float: left;
+}
+
+.email-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C1C1C;
+}
+
+.email-input{
+	padding: 8px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+	background-attachment: fixed;
+}
+
+.contact{
+	width: 400px;
+	float: right;
+	padding-left: 50px;
+}
+
+.contact-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C1C1C;
+}
+
+.contact-input{
+	padding: 8px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	margin-top: -4px;
+	background-attachment: fixed;
+}
+
+.passport-no{
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.passport-no-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C1C1C;
+}
+
+.passport-no-input{
+	padding: 8px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	background-attachment: fixed;
+}
+
+.address{
+	display: inline-block;
+	margin-top: 50px;
+}
+.address-text{
+	text-align: center;
+	padding: 8px 15px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	color: #1C1C1C;
+}
+
+.address-input{
+	padding: 8px;
+	font-weight: 900;
+	font-size: 18px;
+	background-color: #fff;
+	color: #1C1C1C;
+	border: 0px solid;
+	background-attachment: fixed;
+}
+
+.btn{
+	width: 150px;
+	background-color: #1C1C1C;
+	color: #fff;
+	height: 40px;
+}
+.button{
+	margin-top: 30px;
+	padding-left: 330px;
+}
+.footer{
+	background-color: #1C1C1C;
+	height: 60px;
+}
+
+.footer-text{
+	margin: 0 auto;
+	color: #ddd;
+	font-size: 12px;
+	padding-top: 20px; 
+}
