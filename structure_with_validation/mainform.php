@@ -49,12 +49,6 @@ session_start();
 			}
 	}
 
-/*	if ($_POST) {
-		# code...
-		$from=$_POST['fromdestination'];
-		$to=$_POST['todestination'];
-		//echo $from,$to;
-	}*/
  ?>
 
 <!DOCTYPE html>
