@@ -34,6 +34,26 @@
     <script src="jquery/jquery-1.11.2.min.js"></script>
     <script src="jquery/jquery.easy-autocomplete.min.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- date picker all script -->
+    <script type="text/javascript">
+    var datefield=document.createElement("input")
+    datefield.setAttribute("type", "date")
+    if (datefield.type!="date"){ //if browser doesn't support input type="date", load files for jQuery UI Date Picker
+        document.write('<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />\n')
+        document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"><\/script>\n')
+        document.write('<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"><\/script>\n') 
+    }
+</script>
+ 
+<script>
+if (datefield.type!="date"){ //if browser doesn't support input type="date", initialize date picker widget:
+    jQuery(function($){ //on document.ready
+        $('#input3').datepicker();
+        $('#input4').datepicker();
+    })
+}
+</script>
+<!-- finish date picker -->
   </head><body>
     <!-- Form for from and to destination in post method redirect to mainform
     page -->
@@ -98,12 +118,12 @@
             <!-- leaving info -->
             <div class="leave">
               <label class="leave-text">Leaving On</label>
-              <input class="leave-input" type="text" name="to" id="input3" placeholder="Enter City or airport" size="30">
+              <input class="leave-input" type="text" name="to" id="input3" placeholder="select your date" size="30">
             </div>
             <!-- Return Info -->
             <div class="return">
               <label class="return-text">Return On</label>
-              <input class="return-input" type="text" name="to" id="input4" placeholder="Enter City or airport" size="30">
+              <input class="return-input" type="text" name="to" id="input4" placeholder="select your date" size="30">
             </div>
           </div>
           <div class="options">
