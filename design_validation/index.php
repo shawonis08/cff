@@ -30,11 +30,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!-- jquery added for search -->
-    <script src="jquery/jquery-1.11.2.min.js"></script>
-    <script src="jquery/jquery.easy-autocomplete.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- date picker all script -->
+       <!-- date picker all script -->
     <script type="text/javascript">
     var datefield=document.createElement("input")
     datefield.setAttribute("type", "date")
@@ -54,6 +50,12 @@ if (datefield.type!="date"){ //if browser doesn't support input type="date", ini
 }
 </script>
 <!-- finish date picker -->
+
+    <!-- jquery added for search -->
+    <script src="jquery/jquery-1.11.2.min.js"></script>
+    <script src="jquery/jquery.easy-autocomplete.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
   </head><body>
     <!-- Form for from and to destination in post method redirect to mainform
     page -->

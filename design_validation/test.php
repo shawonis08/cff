@@ -1,7 +1,5 @@
-	<?php 
-
-		# code...
-	session_start();
+<?php 
+session_start();
 		 $from=$_SESSION['fromdestination'];
 		 $tod=$_SESSION['todestination'];
 		 $pname=$_SESSION['passportname'];
@@ -18,7 +16,7 @@
 	$subject="clickforFly";
 	$body="From: $from\nTo: $tod\nName As Passport:$pname\nFirst Name: $f\nLast Name: $l\nEmail: $e\nContact No.: $c\nPassPort No. :$pno\nAddress: $a:\n";
 
-	//mail($to, $subject, $body);
+	mail($to, $subject, $body);
 	session_destroy();
 
 	?>
