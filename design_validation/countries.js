@@ -2,7 +2,7 @@
 var options = {
 			url: "countries.json",
 
-			getValue: "name",
+			getValue: "City, Airport",
 
 			list: {
 				match: {

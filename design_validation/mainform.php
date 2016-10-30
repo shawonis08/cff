@@ -4,7 +4,7 @@ session_start();
 	$_SESSION['todestination'];
 	if ($_POST) {
 		# code...
-		$passportname=$_POST['passportname'];
+		//$passportname=$_POST['passportname'];
 		$fname=$_POST['fname'];
 		$lname=$_POST['lname'];
 		$email=$_POST['email'];
@@ -12,10 +12,11 @@ session_start();
 		$passportno=$_POST['passportno'];
 		$address=$_POST['address'];
 		$flag=0;
-			if ($passportname=="") {
+			/*if ($passportname=="") {
 				# code...
 				$flag=1;
-			}if ($fname=="") {
+			}*/
+			if ($fname=="") {
 				# code...
 				$flag=1;
 			}if ($lname=="") {
@@ -72,18 +73,18 @@ session_start();
 	<div class="main">
 		<div class="main-container">
 			<div class="passport">
-				<label class="passport-text">Name As Passport</label>
-				<input class="passport-input" type="text" name="passportname" id="input0" placeholder="Enter name as passport" size="56"/>
+				<label class="passport-text">Name As Per Passport</label>
+				<!-- <input class="passport-input" type="text" name="passportname" id="input0" placeholder="Enter name as passport" size="56"/> -->
 			</div>
 			<br>
 			<div class="name">
 				<div class="fname">
 					<label class="fname-text">First Name</label>
-					<input class="fname-input" type="text" name="fname" id="input1" placeholder="Enter First name" size="30"/>
+					<input class="fname-input" type="text" name="fname" id="input1" placeholder="Enter First Name" size="30"/>
 				</div>
 				<div class="lname">
 					<label class="lname-text">Last Name</label>
-					<input class="lname-input" type="text" name="lname" id="input2" placeholder="last name" size="30"/>
+					<input class="lname-input" type="text" name="lname" id="input2" placeholder="Enter First Name" size="30"/>
 				</div>
 			</div>
 			<div  class="email-contact">
@@ -92,13 +93,13 @@ session_start();
 					<input class="email-input" type="text" name="email" id="input3" placeholder="Enter Email Address" size="30"/>
 				</div>
 				<div class="contact">
-					<label class="contact-text">Contact No</label>
+					<label class="contact-text">Contact Number</label>
 					<input class="contact-input" type="text" name="contactno" id="input4" placeholder="Enter Contact No." size="30"/>
 				</div>
 			</div>
 			<div class="passport-no">
-				<label class="passport-no-text">Passport No</label>
-				<input class="passport-no-input" type="text" name="passportno" id="input5" placeholder="Enter Passport Number" size="61">
+				<label class="passport-no-text">Passport Number</label>
+				<input class="passport-no-input" type="text" name="passportno" id="input5" placeholder="Enter Passport Number" size="58">
 			</div>
 			<div class="address">
 				<label class="address-text">Address</label>
@@ -109,13 +110,13 @@ session_start();
 
 	<!-- <input type="text" name="lname" id="input2" placeholder="Enter last name" class="form-control"/> -->
 			<div class="button">
-				<input type="submit"  name="submit" value="submit" id="submit" class="btn">
+				<input type="submit"  name="submit" value="SUBMIT" id="submit" class="btn">
 			</div>
 		</div>
 	</div>
 </form>
 <div class="footer">
-	<div class="footer-text">All copyright resevered by HexaParity</div>
+	<div class="footer-text">All copyright resevered by ClickForFly</div>
 </div>
 </body>
 </html>

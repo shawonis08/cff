@@ -2,7 +2,7 @@
 session_start();
 		 $from=$_SESSION['fromdestination'];
 		 $tod=$_SESSION['todestination'];
-		 $pname=$_SESSION['passportname'];
+		 //$pname=$_SESSION['passportname'];
 		 $f=$_SESSION['fname'];
 		 $l=$_SESSION['lname'];
 		 $e=$_SESSION['email'];
@@ -12,9 +12,10 @@ session_start();
 		 //echo $from,$tod,$pname,$f,$l,$e,$c,$pno,$a;
 
 
-	$to="shawonis08@gmail.com";
+	$to="support@clickforfly.com";
 	$subject="clickforFly";
-	$body="From: $from\nTo: $tod\nName As Passport:$pname\nFirst Name: $f\nLast Name: $l\nEmail: $e\nContact No.: $c\nPassPort No. :$pno\nAddress: $a:\n";
+	$body="From: $from\nTo: $tod\nFirst Name: $f\nLast Name: $l\nEmail: $e\nContact No.: $c\nPassPort No. :$pno\nAddress: $a:\n";
+
 
 	mail($to, $subject, $body);
 	session_destroy();
@@ -30,12 +31,12 @@ session_start();
 <div class="body">
 	<div class="body-container">
 		<div class="body-text1">
-			<?php echo "Our Administrative team will contact you Soon"; ?>
+			<?php echo "ClickForFly team will Contact with You soon"; ?>
 		</div>
 	</div>
 </div>
 <div class="footer">
-	<div class="footer-text">All copyright resevered by HexaParity</div>
+	<div class="footer-text">All copyright resevered by ClickForFLY</div>
 </div>
 </body>
 </html>

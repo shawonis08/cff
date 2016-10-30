@@ -7,12 +7,12 @@
 <div class="body">
 	<div class="body-container">
 		<div class="body-text2">
-			We are coming soon...
+			Site Under Construction....
 		</div>
 	</div>
 </div>
 <div class="footer">
-	<div class="footer-text">All copyright resevered by HexaParity</div>
+	<div class="footer-text">All Copyright Resevered by ClickForFly</div>
 </div>
 </body>
 </html>

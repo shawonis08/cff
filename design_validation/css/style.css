@@ -12,11 +12,12 @@
 }
 
 .navbar-brand{
-	padding: 0px;
+	padding: 20px;
+	margin-top: -47px;
 }
 
 .main{
-	background-image: url(../img/flight1.jpg);
+	background-image: url(../img/1.jpg);
 	height: 650px;
     -webkit-background-size: cover;
   	-moz-background-size: cover;

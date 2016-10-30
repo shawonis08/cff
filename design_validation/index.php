@@ -28,10 +28,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-       <!-- date picker all script -->
-    <script type="text/javascript">
+<!-- date picker all script -->
+
+<script type="text/javascript">
     var datefield=document.createElement("input")
     datefield.setAttribute("type", "date")
     if (datefield.type!="date"){ //if browser doesn't support input type="date", load files for jQuery UI Date Picker
@@ -49,6 +52,7 @@ if (datefield.type!="date"){ //if browser doesn't support input type="date", ini
     })
 }
 </script>
+
 <!-- finish date picker -->
 
     <!-- jquery added for search -->
@@ -69,7 +73,7 @@ if (datefield.type!="date"){ //if browser doesn't support input type="date", ini
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><img height="42" alt="Brand" src="logo\new-size-logo-copy-1.png" class="img-rounded"></a>
+            <a class="navbar-brand"><img height="90" alt="Brand" src="logo\new-size-logo-copy-1.png" class="img-rounded"></a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -171,6 +175,7 @@ if (datefield.type!="date"){ //if browser doesn't support input type="date", ini
                 <option value="Economy" selected="selected">Economy</option>
                 <option value="business">Business</option>
                 <option value="first">First</option>
+                <option value="peco">Premium-Economy</option>
               </select>
             </div>
           </div>
@@ -188,7 +193,7 @@ if (datefield.type!="date"){ //if browser doesn't support input type="date", ini
               <p class="text-left text-muted">@copyright 2016-17</p>
             </div>
             <div class="col-sm-6">
-              <p class="text-muted text-right">Developed by HexaParity</p>
+              <p class="text-muted text-right">Developed by ClickForFly</p>
             </div>
           </div>
         </div>
