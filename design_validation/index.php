@@ -4,6 +4,8 @@
     # code...
     $fromdestination=$_POST['fromdestination'];
     $todestination=$_POST['todestination'];
+    $leave=$_POST['leave'];
+    $return=$_POST['return'];
     $flag=0;
       if ($fromdestination=="") {
         # code...
@@ -17,6 +19,8 @@
         # code...
         $_SESSION["fromdestination"]=$_POST['fromdestination'];
         $_SESSION["todestination"]=$_POST['todestination'];
+        $_SESSION["leave"]=$_POST['leave'];
+        $_SESSION["return"]=$_POST['return'];
         header('Location: mainform.php');
       }
   }
@@ -124,12 +128,12 @@ if (datefield.type!="date"){ //if browser doesn't support input type="date", ini
             <!-- leaving info -->
             <div class="leave">
               <label class="leave-text">Leaving On</label>
-              <input class="leave-input" type="text" name="to" id="input3" placeholder="select your date" size="30">
+              <input class="leave-input" type="date" name="leave" id="input3" placeholder="select your date" size="30">
             </div>
             <!-- Return Info -->
             <div class="return">
               <label class="return-text">Return On</label>
-              <input class="return-input" type="text" name="to" id="input4" placeholder="select your date" size="30">
+              <input class="return-input" type="date" name="return" id="input4" placeholder="select your date" size="30">
             </div>
           </div>
           <div class="options">

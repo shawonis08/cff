@@ -2,6 +2,8 @@
 session_start();
 	$_SESSION['fromdestination'];
 	$_SESSION['todestination'];
+	$_SESSION['leave'];
+	$_SESSION['return'];
 	if ($_POST) {
 		# code...
 		//$passportname=$_POST['passportname'];
@@ -28,14 +30,15 @@ session_start();
 			}if ($contactno=="") {
 				# code...
 				$flag=1;
-			}if ($passportno=="") {
+			}
+
+			/*if ($passportno=="") {
 				# code...
 				$flag=1;
 			}if ($address=="") {
 				# code...
 				$flag=1;
-			}
-			
+			}*/
 			if ($flag!=1) {
 				# code...
 				$_SESSION["passportname"]=$_POST['passportname'];
@@ -98,9 +101,17 @@ session_start();
 				</div>
 			</div>
 			<div class="passport-no">
-				<label class="passport-no-text">Passport Number</label>
-				<input class="passport-no-input" type="text" name="passportno" id="input5" placeholder="Enter Passport Number" size="58">
+				<label class="passport-no-text">Passport Number</label><br>
+				<input class="passport-no-input" type="text" name="passportno" id="input5" placeholder="Enter Passport Number" size="30">
 			</div>
+			<!-- occupation -->
+			<div class="occupation">
+				<label class="occupation-text">Occupation</label><br>
+				<input class="occupation-input" type="text" name="occupation" id="input6" placeholder="Enter your Profession" size="30">
+			</div>
+			
+
+			
 			<div class="address">
 				<label class="address-text">Address</label>
 				<input class="address-input" type="text" name="address" id="input6" placeholder="Enter Address" size="65"/>

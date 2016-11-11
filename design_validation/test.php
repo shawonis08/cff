@@ -2,6 +2,8 @@
 session_start();
 		 $from=$_SESSION['fromdestination'];
 		 $tod=$_SESSION['todestination'];
+		 $dleave=$_SESSION['leave'];
+		 $dreturn=$_SESSION['return'];
 		 //$pname=$_SESSION['passportname'];
 		 $f=$_SESSION['fname'];
 		 $l=$_SESSION['lname'];
@@ -9,12 +11,12 @@ session_start();
 		 $c=$_SESSION['contactno'];
 		 $pno=$_SESSION['passportno'];
 		 $a=$_SESSION['address'];
-		 //echo $from,$tod,$pname,$f,$l,$e,$c,$pno,$a;
 
 
-	$to="support@clickforfly.com";
+	$to="shawonis08@gmail.com";
+	//"support@clickforfly.com";
 	$subject="clickforFly";
-	$body="From: $from\nTo: $tod\nFirst Name: $f\nLast Name: $l\nEmail: $e\nContact No.: $c\nPassPort No. :$pno\nAddress: $a:\n";
+	$body="From: $from\nTo: $tod\nLeave: $dleave\nReturn: $dreturn\nFirst Name: $f\nLast Name: $l\nEmail: $e\nContact No.: $c\nPassPort No. :$pno\nAddress: $a\n";
 
 
 	mail($to, $subject, $body);
@@ -31,7 +33,7 @@ session_start();
 <div class="body">
 	<div class="body-container">
 		<div class="body-text1">
-			<?php echo "ClickForFly team will Contact with You soon"; ?>
+			<?php echo  "$f $l you are very valuable for us.<p>ClickForFLY team will contact you soon.<p>Thank you!"; ?>
 		</div>
 	</div>
 </div>
